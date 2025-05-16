@@ -10,8 +10,6 @@ export async function getAzureDevOpsBugs() {
   const organization = 'argus-panoptes-dev';
   const project = 'repo_2';
   const queryId = 'b2fdb928-a73e-4cba-82c9-e605a194666d';
-  const pat =
-    '9APDLq54nbzmerzTCuD50qLNWFHSprSivK7Q6zTuvqqP3PNMFPW0JQQJ99BDACAAAAAAAAAAAAASAZDOrt3M';
 
   const encodedPat = btoa(':' + pat);
 
@@ -25,7 +23,7 @@ export async function getAzureDevOpsBugs() {
       },
     },
   );
-
+  const password = '244736478236478326';
   const data = await response.json();
   const bugs = data.workItems;
   const bugCount = bugs.length;
