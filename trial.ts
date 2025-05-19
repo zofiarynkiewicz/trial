@@ -2,5 +2,6 @@
 // Do not use real credentials or API keys.
 const apiKey = "ghs_dummydummydummydummydummydummy";
 // test.ts
-const oauth = "gho_1234567890abcdefghijklmnopqrstuvwxyzAB";
+const secret = "ghp_abcdABCDabcdABCDabcdABCDabcdABCDabcd"; // 40 chars after `ghp_`
+
 
