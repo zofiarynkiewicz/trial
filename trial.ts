@@ -4,7 +4,10 @@ const apiKey = "ghs_dummydummydummydummydummydummy";
 // test.ts
 const secret = "ghp_abcdABCDabcdABCDabcdABCDabcdABCDabcd"; // 40 chars after `ghp_`
 // test-secret.ts
-const mypat = "ghp_1234567890abcdefghijklmnopqrstuvwxyzAB";
+// secret-test.ts
+
+const testToken = "ghp_abcdefghijklmnopqrstuvwxyz1234567890ABCD"; // valid fake PAT
+
 
 
 
