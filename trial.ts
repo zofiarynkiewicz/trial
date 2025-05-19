@@ -2,4 +2,5 @@
 // Do not use real credentials or API keys.
 const apiKey = "ghs_dummydummydummydummydummydummy";
 // test.ts
-const dummyGitHubToken = "ghp_exampleexampleexampleexampleexamp"; // Simulated token for testing
+const oauth = "gho_1234567890abcdefghijklmnopqrstuvwxyzAB";
+
