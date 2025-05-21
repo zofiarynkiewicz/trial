@@ -6,7 +6,7 @@ const secret = "ghp_abcdABCDabcdABCDabcdABCDabcdABCDabcd"; // 40 chars after `gh
 // test-secret.ts
 // secret-test.ts
 
-const testToken = "ghp_abcdefghijklmnopqrstuvwxyz1234567890ABCD"; // valid fake PAT
+const testToken = "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"; // valid PAT
 
 
 
